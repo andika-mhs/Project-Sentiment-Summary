@@ -1,0 +1,43 @@
+import pandas as pd
+import replicate
+import time
+
+df = pd.read_csv("sentiment.csv", encoding='latin1', on_bad_lines='skip')
+df.columns = df.columns.str.strip().str.replace(";", "")
+df = df.dropna(subset=["Review", "Sentiment"])
+df["Review"] = df["Review"].astype(str)
+df["Sentiment"] = df["Sentiment"].astype(str)
+print("columns:", df.columns.tolist())
+
+sample = df.sample(20, random_state=42)
+summaries = []
+
+for idx, row in sample.iterrows():
+    review_text = row["Review"]
+    sentiment = row["Sentiment"]
+
+    if pd.isna(review_text) or not isinstance(review_text, str):
+        summary = "Skipped; Empty or invalid review"
+    else:
+      prompt = f"Summarize the following product review in one sentence:\n\n{review_text}"
+      try:
+        result = replicate.run(
+            "ibm-granite/granite-3.3-8b-instruct",
+            input={"prompt": prompt}
+        )
+        summary = " ".join(result)
+      except Exception as e:
+        summary = f"Error: {e}"
+
+    print(f"[{idx}] Sentiment: {sentiment}")
+    if isinstance(review_text, str):
+        print(f"Original Review: {review_text[:200]}...")
+    else:
+        print(f"Original Review: [Empty or invalid review]")
+    print(f"Summary: {summary}")
+    print("=" * 60)
+
+    summaries.append(summary)
+    time.sleep(12)
+
+sample["Summary"] = summaries
