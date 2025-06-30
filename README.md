@@ -1,7 +1,7 @@
 # Project review sentiment classification and summarization
 This project is part of the Hacktiv8 X SkillBuild capstone challenge. The goal is to clasiffy reviews based on sentiment and generate a consice summary using IBM Granite via Replicate API
 # Project goals
-Classify produk reviews as positive, neutral, or negative. Generate one-sentence summaries using IBM Granite. Identify patterns and insights from customer reviews
+Classify produk reviews as positive, neutral, or negative. Generate one-sentence summaries using IBM Granite LLM. Identify patterns and insights from customer reviews
 # Dataset
 Source : https://www.kaggle.com/datasets/mansithummar67/171k-product-review-with-sentiment-dataset. File used : Equal.csv. Sampled 20 reviews for summarization to reduce API cost
 # Tools used
