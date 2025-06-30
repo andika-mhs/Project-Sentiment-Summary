@@ -1,0 +1,81 @@
+columns: ['ProductName', 'ProductPrice', 'Rate', 'Review', 'Summary', 'Sentiment']
+[('OnePlus Bullets Wireless Z2 with Fast Charge', ' 30 Hrs Battery Life', ' Earphones with mic Bluetooth Headset??????(Magico Black')] Sentiment: positive;
+Original Review: Perfect product!...
+Summary:  This product is highly praised , described as "perfect." 
+============================================================
+[('IFB Neptune VX Plus Free Standing 15 Place Settings with Germ-Free Hygienic Wash', ' Made for Indian Kitchens', ' Steam Drying')] Sentiment: positive;
+Original Review: Fabulous!...
+Summary:  This product is highly praised  and considered excellent.
+============================================================
+[('Noise ColorFit Icon 2 1.8 Display', ' Bluetooth Calling', ' AI Voice Assistance SmartwatchÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(Blue Strap')] Sentiment: positive;
+Original Review: Excellent...
+Summary:  This product review is highly positive,  with the user expressing satisfaction  and praise for the product,  using the term "excellent." 
+============================================================
+[('Logitech G213 / Lightsync RGB', ' Spill-resistant', ' Palm-rest')] Sentiment: positive;
+Original Review: Nice product...
+Summary:  The product is well-received,  described as "nice."
+============================================================
+[('Noise ColorFit Icon 2 1.8 Display', ' Bluetooth Calling', ' AI Voice Assistance SmartwatchÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(Blue Strap')] Sentiment: positive;
+Original Review: Just okay...
+Summary:  The product review expresses a neutral  opinion, indicating that the product is  satisfactory but lacks exception al qualities.
+============================================================
+[('Lenovo IdeaPad 3 Celeron Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 81WQ00MQIN|81WQ00NXIN LaptopÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(15.6 Inch', ' Platinum Grey', ' 1.7 Kg')] Sentiment: positive;
+Original Review: Simply awesome...
+Summary:  The product review expresses an over whelmingly positive sentiment,  describing the product as "simply  awesome."
+============================================================
+[('IFB Neptune VX Plus Free Standing 15 Place Settings with Germ-Free Hygienic Wash', ' Made for Indian Kitchens', ' Steam Drying')] Sentiment: positive;
+Original Review: Super!...
+Summary:  This product review, "Super!",  expresses high satisfaction and ent husiasm about the product. 
+============================================================
+[('IFB Neptune VX Free Standing 12 Place Settings with Germ-Free Hygienic Wash', ' Made for Indian Kitchens', ' Steam Drying')] Sentiment: positive;
+Original Review: Worth every penny...
+Summary:  The product is highly valued and  considered a worthwhile investment. 
+============================================================
+[('ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-EJ392WS Thin and Light LaptopÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(15.6 inch', ' Transparent Silver', ' 1.80 kg')] Sentiment: positive;
+Original Review: Awesome...
+Summary:  The product review is an enthus iastic endorsement, with the  user simply stating "Awesome". 
+============================================================
+[('SB 30 W 4 A Mobile 30W -VOOC', 'DART', 'FLASH with Type-C Cable Charging Adapter Travel Fast DH078 Charger with Detachable Cable?Ã\x90Â\x93Ã\x92Â\x93Ã\x90Â\x92Ã\x92Â\x9d?Ã\x90Â\x93Ã\x92Â\x93Ã\x90Â\x92Ã\x92Â\x9d(White')] Sentiment: positive;
+Original Review: Wonderful...
+Summary:  The product is highly praised , described as "wonderful " by the user.
+============================================================
+[('Women Party', ' Evening', ' Formal')] Sentiment: negative;
+Original Review: Nan...
+Summary:  The product review for "Nan"  is missing, so I cannot provide  a summary. Please provide the review  text for me to create a concise  one-sentence summary.
+============================================================
+[('Mi 10W Fast Charger combo for Mi', 'Redmi', 'Xiomi devices (MicroUSB - Cable Included)?Ã\x90Â\x93Ã\x92Â\x93Ã\x90Â\x92Ã\x92Â\x9d?Ã\x90Â\x93Ã\x92Â\x93Ã\x90Â\x92Ã\x92Â\x9d(Black')] Sentiment: positive;
+Original Review: Wonderful...
+Summary:  The product review expresses a highly  positive sentiment, describing the product as  "wonderful."
+============================================================
+[('IFB Neptune SX1 Free Standing 15 Place Settings with Germ-Free Hygienic Wash', ' Made for Indian Kitchens', ' Steam Drying')] Sentiment: positive;
+Original Review: Terrific purchase...
+Summary:  This product is highly praised  and considered a great buy. 
+============================================================
+[('Crompton 100 L Desert Air Cooler with Motor Overload Protection', ' Auto-drain??????????(White', ' Black')] Sentiment: negative;
+Original Review: decent product...
+Summary:  The product is satisfactory but  lacks exceptional features to stand  out significantly.
+============================================================
+[('Crompton 100 L Desert Air Cooler with Motor Overload Protection', ' Auto-drain??????????(White', ' Black')] Sentiment: negative;
+Original Review: slightly disappointed...
+Summary:  The product review expresses mild  dissatisfaction with the item. 
+============================================================
+[('OnePlus Bullets Wireless Z2 with Fast Charge', ' 30 Hrs Battery Life', ' Earphones with mic Bluetooth Headset??????(Magico Black')] Sentiment: neutral;
+Original Review: Moderate...
+Summary:  The product, while functional, has  a few design flaws and lack s some advanced features that are present  in competitors, resulting in a  moderate rating.
+============================================================
+[('ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-EJ392WS Thin and Light LaptopÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(15.6 inch', ' Transparent Silver', ' 1.80 kg')] Sentiment: neutral;
+Original Review: Did not meet expectation...
+Summary:  The product failed to deliver on its  promises and did not satisfy the customer 's expectations.
+============================================================
+[('ASUS Vivobook Pro 15 Ryzen 7 Octa Core AMD R7-4800H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650 Max Q) M6500IH-HN702WS Creator LaptopÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(15.6 Inch', ' Cool Silver', ' 1.80 Kg')] Sentiment: negative;
+Original Review: Does the job...
+Summary:  The product effectively fulfills its intended  purpose.
+============================================================
+[('Women Party', ' Evening', ' Formal')] Sentiment: positive;
+Original Review: Nan...
+Summary:  The Nan product review describes it as  a convenient, easy-to- use, and reliable device for remote  monitoring, though some users experienced occ asional connectivity issues.
+============================================================
+[('ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-EJ392WS Thin and Light LaptopÃ\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0Ã\x90Â\x93Ã\x92Â\x93?Ã\x90Â\x93Ã\x93Â®Ã\x90Â\x92Ã\x82Â\xa0(15.6 inch', ' Transparent Silver', ' 1.80 kg')] Sentiment: positive;
+Original Review: Good choice...
+Summary:  This product is a solid, recommended  choice.
+============================================================
