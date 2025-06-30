@@ -1,0 +1,37 @@
+import pandas as pd
+df = pd.read_csv("Equal.csv", encoding='latin1', sep=';', on_bad_lines = 'skip')
+df.columns = df.columns.str.strip()
+print("Column names:", df.columns.tolist())
+df.head()
+sample = df.sample(20, random_state=42)
+
+summaries = []
+
+import time
+
+for idx, row in sample.iterrows():
+  review_text = row["Review"]
+  sentiment = row["Sentiment"]
+
+  prompt = f"Summarize the following product review is one sentence:\n\n{review_text}"
+
+  try:
+    result = replicate.run(
+        "ibm-granite/granite-3.3-8b-instruct",
+        input={"prompt": prompt}
+    )
+    summary = "".join(result)
+  except Exception as e:
+    summary = f"Error: {e}"
+
+  print(f"[{idx}] Sentiment: {sentiment}")
+  print(f"Original Review: {review_text[:200]}...")
+  print(f"Summary: {summary}")
+  print("="*60)
+
+  summaries.append(summary)
+
+  time.sleep(12)
+
+sample["Summary"] = summaries
+sample.to_csv("summarized_reviews.csv", index=False)
