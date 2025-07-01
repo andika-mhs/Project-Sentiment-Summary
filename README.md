@@ -5,7 +5,7 @@ Classify produk reviews as positive, neutral, or negative. Generate one-sentence
 # Dataset
 Source : https://www.kaggle.com/datasets/mansithummar67/171k-product-review-with-sentiment-dataset. File used : sentiment.csv. Sampled 20 reviews for summarization to reduce API cost
 # Tools used
-Google Colab (Phyton). pandas, replicate, time. IBM Granite model via Replicate API. sentiment.csv for input, summarized_reviews as output
+Google Colab (Phyton). IBM Granite model via Replicate API. sentiment.csv for input, summarized_reviews as output
 # How to run
 Clone this repo. Open notebook/final_project.ipynb in Google Colab. Insert your Replicate API Token. Run all cells
 # Sample output
