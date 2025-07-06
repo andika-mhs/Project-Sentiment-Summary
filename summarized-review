@@ -1,4 +1,3 @@
-columns: ['ProductName', 'ProductPrice', 'Rate', 'Review', 'Summary', 'Sentiment']
 [('OnePlus Bullets Wireless Z2 with Fast Charge', ' 30 Hrs Battery Life', ' Earphones with mic Bluetooth Headset??????(Magico Black')] Sentiment: positive;
 Original Review: Perfect product!...
 Summary:  This product is highly praised , described as "perfect." 
