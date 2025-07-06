@@ -10,7 +10,5 @@ Google Colab (Phyton). IBM Granite model via Replicate API. sentiment.csv for in
 Clone this repo. Open notebook/final_project.ipynb in Google Colab. Insert your Replicate API Token. Run all cells
 # Sample output
 |Sentiment: Positive|Summary:  This product is highly praised , described as "perfect"|, |Sentiment: neutral|Summary: The product, while functional, has  a few design flaws and lack s some advanced features that are present  in competitors, resulting in a  moderate rating|, |sentiment: Negative|Summary: The product is satisfactory but  lacks exceptional features to stand  out significantly|
-# Limitations
-Some reviews with corrupted characters produced unrelated summaries. Rate limiting from Replicate API may delay batch processing
 # Conclusion
 LLM models like IBM Granite are capable of condensing unstuctured product reviews into consice summaries, which can help business gan quick insight to customer satisfaction
